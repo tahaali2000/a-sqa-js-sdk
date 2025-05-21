@@ -16,10 +16,10 @@ Need help? See our <a href="https://developer.spotify.com/documentation/web-api/
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install a-sqa-sdk@1.8.9
+npm install a-sqa-sdk@4.5.7
 ```
 
-For additional package details, see the [Npm page for the a-sqa-sdk@1.8.9 npm](https://www.npmjs.com/package/a-sqa-sdk/v/1.8.9).
+For additional package details, see the [Npm page for the a-sqa-sdk@4.5.7 npm](https://www.npmjs.com/package/a-sqa-sdk/v/4.5.7).
 
 ## Test the SDK
 
@@ -39,7 +39,7 @@ npm run test:coverage
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -47,9 +47,9 @@ The following parameters are configurable for the API Client:
 |  --- | --- | --- |
 | environment | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `0` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
-| authorizationCodeAuthCredentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for authorizationCodeAuth |
+| authorizationCodeAuthCredentials | [`AuthorizationCodeAuthCredentials`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md) | The credential object for authorizationCodeAuth |
 
 The API client can be initialized as follows:
 
@@ -73,38 +73,38 @@ const client = new Client({
 
 This API uses the following authentication schemes.
 
-* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/auth/oauth-2-authorization-code-grant.md)
+* [`oauth_2_0 (OAuth 2 Authorization Code Grant)`](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/auth/oauth-2-authorization-code-grant.md)
 
 ## List of APIs
 
-* [Albums](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/albums.md)
-* [Artists](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/artists.md)
-* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/audiobooks.md)
-* [Categories](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/categories.md)
-* [Chapters](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/chapters.md)
-* [Episodes](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/episodes.md)
-* [Genres](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/genres.md)
-* [Markets](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/markets.md)
-* [Player](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/player.md)
-* [Playlists](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/playlists.md)
-* [Search](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/search.md)
-* [Shows](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/shows.md)
-* [Tracks](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/tracks.md)
-* [Users](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/controllers/users.md)
+* [Albums](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/albums.md)
+* [Artists](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/artists.md)
+* [Audiobooks](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/audiobooks.md)
+* [Categories](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/categories.md)
+* [Chapters](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/chapters.md)
+* [Episodes](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/episodes.md)
+* [Genres](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/genres.md)
+* [Markets](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/markets.md)
+* [Player](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/player.md)
+* [Playlists](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/playlists.md)
+* [Search](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/search.md)
+* [Shows](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/shows.md)
+* [Tracks](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/tracks.md)
+* [Users](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/controllers/users.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/retry-configuration.md)
+* [HttpClientOptions](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/retry-configuration.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/http-request.md)
+* [HttpRequest](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/api-response.md)
-* [ApiError](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/1.8.9/doc/api-error.md)
+* [ApiResponse](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/api-response.md)
+* [ApiError](https://www.github.com/tahaali2000/a-sqa-js-sdk/tree/4.5.7/doc/api-error.md)
 
